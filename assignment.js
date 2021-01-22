@@ -3,14 +3,25 @@
 // // Problem-1 Solve
 
 
-function kilometerToMeter(kilometer) {
-    var getMeter = kilometer * 1000;
-    return getMeter;
+function kilometerToMeter(km) {
+    let meter = 0;
+    if (km > 0) {
+        meter = km * 1000;
+    } else if (km < 0) {
+        return "Distance cannot be negative.";
+    } else if (km == 0) {
+        return "value is 0.";
+    } else {
+        return "invalid.";
+    }
+    return meter;
+    
 }
-var resultMeter = kilometerToMeter(1);
 
 // Console Output
-console.log(resultMeter);
+var result= kilometerToMeter(2);
+console.log(result);
+
 
 // Problem-2 Solve
 
