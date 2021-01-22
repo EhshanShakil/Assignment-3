@@ -1,5 +1,7 @@
+// https://github.com/EhshanShakil/Assignment-3
+
 // // Problem-1 Solve
-// //
+
 
 function kilometerToMeter(kilometer) {
     var getMeter = kilometer * 1000;
@@ -11,6 +13,8 @@ var resultMeter = kilometerToMeter(1);
 console.log(resultMeter);
 
 // Problem-2 Solve
+
+
 
 function budgetCalculator(watch, phone, laptop) {
     var watchPrice = watch * 50;
@@ -54,6 +58,8 @@ var HotelBill = hotelCost(25);
 // Console Output
 
 console.log(HotelBill);
+
+
 
 
 //Problem-4 Solve
